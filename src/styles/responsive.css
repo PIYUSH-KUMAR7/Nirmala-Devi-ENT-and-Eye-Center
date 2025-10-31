@@ -1,0 +1,80 @@
+/* -------------------------------
+   Tablets & Below (≤ 992px)
+------------------------------- */
+@media (max-width: 992px) {
+  .image {
+    max-width: 100% !important;
+  }
+
+  .navbar-expand-lg .navbar-brand {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    color: #1563ab !important;
+  }
+
+  .navbar-expand-lg .navbar-collapse .nav-link {
+    color: #1563ab !important;
+  }
+
+  .offcanvas {
+    background-color: #1563ab !important;
+  }
+}
+
+/* -------------------------------
+   Mobile Devices (≤ 768px)
+------------------------------- */
+@media (max-width: 768px) {
+  .navbar-clone {
+    top: 0px !important;
+  }
+
+  .sticky-wrapper {
+    position: relative !important;
+  }
+
+  .hero {
+    background-image: url('/img/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .hero-text {
+    max-width: 100% !important;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 20px !important;
+  }
+
+  .hero-text h3 {
+    font-size: 18px !important;
+  }
+
+  .hero-text p {
+    font-size: 16px !important;
+    text-align: center;
+  }
+
+  .hero-text .btn {
+    padding: 8px !important;
+    margin-bottom: 10px;
+  }
+
+  img,
+  svg {
+    vertical-align: bottom !important;
+  }
+}
+
+/* -------------------------------
+   Extra Small Devices (340px - 575px)
+------------------------------- */
+@media (min-width: 340px) and (max-width: 575px) {
+  .extra-sub {
+    margin-bottom: -4rem !important;
+  }
+}

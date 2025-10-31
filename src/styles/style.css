@@ -1,0 +1,171 @@
+/* ---------------------------------
+   Color Utilities
+---------------------------------- */
+.text-main { color: #1563ab !important; }
+.text-second { color: #a13131 !important; }
+.sub-heading, .sub-head { color: #a13131 !important; }
+.sub-h2 { color: #f7f7f7; }
+.sub-h3 { color: black !important; }
+.sub-h3:hover { color: #ab1515 !important; text-decoration: underline; }
+
+/* ---------------------------------
+   Background Colors
+---------------------------------- */
+.primary-bg { background: #1563ab !important; }
+.primary-bg-soft { background-color: #ddede2 !important; }
+.secondary-bg { background: #a13131 !important; }
+.bg-grays { background-color: #e0e7ef !important; }
+.bg-lights { background-color: #f7f7f7 !important; }
+.bg-secondary-lt { background-color: #d0e0ee !important; }
+.img-bg { background-color: #e5f0ff !important; }
+
+/* ---------------------------------
+   Typography
+---------------------------------- */
+section h1, h1 span {
+  font-size: 34px !important;
+  color: #1563ab !important;
+  letter-spacing: 0;
+}
+
+section h2, h2 span {
+  font-size: 32px !important;
+  color: #1563ab !important;
+  letter-spacing: 0;
+}
+
+section h3, .link h3:hover, .link:hover h4 {
+  color: #1563ab !important;
+}
+
+.text-justify { text-align: justify !important; }
+.d-header {
+  font-weight: bolder !important;
+  color: #1563ab !important;
+  font-size: medium !important;
+}
+
+/* ---------------------------------
+   Links & Hover States
+---------------------------------- */
+.mail a { color: rgb(85, 79, 79) !important; }
+.mail a:hover { color: rgb(61, 61, 202) !important; }
+.widget ul li a:hover {
+  color: #fff !important;
+  text-decoration: underline !important;
+}
+.widget .footer-links:hover { color: #1563ab !important; }
+
+.text-inverse,
+.link-inverse,
+.text-inverse a:not(.btn) {
+  color: #1563ab !important;
+}
+
+/* ---------------------------------
+   Navbar
+---------------------------------- */
+.navbar-nav {
+  --bs-nav-link-hover-color: #1563ab !important;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show,
+.nav-link:hover,
+.navbar-nav .nav-link .activate {
+  color: #1563ab !important;
+}
+
+.navbar.navbar-light.fixed .btn:not(.btn-expand):not(.btn-gradient) {
+  background-color: #31A14E !important;
+}
+
+.navbar-brand img {
+  width: 230px !important;
+}
+
+.navbar-clone { top: 62px !important; }
+
+/* ---------------------------------
+   Sticky Header
+---------------------------------- */
+.sticky-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+}
+.is-sticky .navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* ---------------------------------
+   Breadcrumbs
+---------------------------------- */
+.breadcrumbs {
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+.breadcrumbs .overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: #d5e7f7;
+  z-index: 1;
+}
+
+.breadcrumbs .box {
+  position: relative;
+  z-index: 2;
+}
+
+.breadcrumbs p {
+  color: #1563ab !important;
+}
+
+/* ---------------------------------
+   Components
+---------------------------------- */
+.card {
+  transition: 0.3s all;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.video-container video {
+  width: 100%;
+  height: 85%;
+  position: absolute;
+  object-fit: cover;
+  z-index: -3;
+}
+
+.video-container .overlay {
+  position: absolute;
+  width: 100%;
+  height: 85%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.hero-bg {
+  background-color: rgba(15, 15, 15, 0.5);
+}
+
+.cta h2 {
+  background-color: #fff !important;
+}
+
+/* ---------------------------------
+   Utilities
+---------------------------------- */
+.icons { font-size: 40px !important; color: #fff !important; }
+.image { max-width: 77% !important; }
+.border-10 { border-width: 10px !important; }
+.special-label { display: none !important; }
