@@ -11,7 +11,7 @@ const Home = () => {
       <PageProgress />
 
       <Head>
-        <title>Medicare Hospital and Wellness</title>
+        <title>NIRMALA DEVI ENT & EYE CENTRE</title>
         <meta name="description" content="Trusted ENT care in Location. Discover our expert surgeries, treatments, and compassionate healthcare." />
         <link rel="canonical" href="https://medicare.com" />
       </Head>

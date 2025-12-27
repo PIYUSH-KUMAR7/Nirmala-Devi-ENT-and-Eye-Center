@@ -47,7 +47,7 @@ const Footer = () => {
                 <div className="d-flex mb-1 align-items-start">
                   <i className="uil uil-location-pin-alt fs-26" />
                   <address className="ms-2 m-0 mt-1">
-                    Badal Apartment,Ramkrishna path, Boring Rd, behind Krishna Apartment, North Sri Krishna Puri, Patna, Bihar 800013
+                    Ashiyana Digha road, Ram nagri, More opposite 9 to 9, supermarket, Patna, Bihar 800025
                   </address>
                 </div>
                 <div className="d-flex mb-1 align-items-center">
@@ -59,7 +59,7 @@ const Footer = () => {
                 <div className="d-flex align-items-center mb-1">
                   <i className="uil uil-phone-volume fs-26" />
                   <p className="m-0 ms-2 fs-16">
-                    <Link href="tel:+911234567890">+91 12345 67890</Link>
+                    <Link href="tel:91555 19237">91555 19237</Link>
                   </p>
                 </div>
               </div>
@@ -107,7 +107,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="d-md-flex align-items-center justify-content-center">
-          <p className="mb-2 mb-lg-0">© {currentYear} Ejusgro.</p>
+          <p className="mb-2 mb-lg-0">© {currentYear} Jusgroww.</p>
         </div>
       </div>
     </footer>
